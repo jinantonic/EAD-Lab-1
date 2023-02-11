@@ -472,27 +472,27 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Type
 --------------------------------------------------------------*/
-.services .icon-box h4 {
+.type .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
 }
 
-.services .icon-box i {
+.type .icon-box i {
   font-size: 48px;
   float: left;
   color: #7cc576;
 }
 
-.services .icon-box p {
+.type .icon-box p {
   font-size: 15px;
   color: #959595;
   margin-left: 60px;
 }
 
-.services .image {
+.type .image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
