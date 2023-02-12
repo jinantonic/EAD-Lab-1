@@ -500,6 +500,10 @@ section {
   background: white;
 }
 
+.featured .image {
+  padding-bottom: 60px;
+}
+
 .featured .nav-tabs {
   border: 0;
 }
