@@ -504,6 +504,14 @@ section {
   padding-bottom: 60px;
 }
 
+.featured h5, p{
+  color: black;
+}
+
+.featured .carousel-control-prev {
+  color: black;
+}
+
 .featured .nav-tabs {
   border: 0;
 }
