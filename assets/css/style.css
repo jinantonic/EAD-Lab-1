@@ -4,7 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #555555;
-  /*background-color: beige;*/
+  background-color: #EEE9DA;
 }
 
 a {
@@ -497,7 +497,6 @@ section {
 --------------------------------------------------------------*/
 .featured {
   padding: 40px 0 0 0;
-  background: white;
 }
 
 .featured .image {
@@ -547,6 +546,74 @@ section {
 }
 
 .featured .tab-pane.active {
+  -webkit-animation: slide-down 0.5s ease-out;
+  animation: slide-down 0.5s ease-out;
+}
+
+@-webkit-keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*--------------------------------------------------------------
+# Habitat
+--------------------------------------------------------------*/
+.habitat {
+  padding: 40px 0 0 0;
+}
+
+.habitat .image {
+  padding-bottom: 60px;
+}
+
+.habitat .nav-tabs {
+  border: 0;
+}
+
+.habitat .nav-link {
+  border: 0;
+  padding: 20px;
+  color: #151515;
+  transition: 0.3s;
+}
+
+.habitat .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.habitat .nav-link:hover h4 {
+  color: #7cc576;
+}
+
+.habitat .nav-link p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.habitat .nav-link.active {
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.08);
+}
+
+.habitat .nav-link.active h4 {
+  color: #7cc576;
+}
+
+.habitat .tab-pane.active {
   -webkit-animation: slide-down 0.5s ease-out;
   animation: slide-down 0.5s ease-out;
 }
