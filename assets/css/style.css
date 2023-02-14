@@ -320,9 +320,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/*    Hero    */
 #hero {
   width: 100%;
   height: 100vh;
@@ -352,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Mulish', sans-serif;
   font-style: italic;
   font-size: 60px;
-  color: #FEF7DC;
+  color: #CCEABB;
   line-height: 5rem;
   margin: 0 0 30px 0;
 }
@@ -361,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   font-style: italic;
   font-size: 20px;
-  color: #CCEABB;
+  color: #FEF7DC;
   margin-bottom: 30px;
 }
 
@@ -432,9 +430,7 @@ section {
   color: #aeaeae;
 }
 
-/*--------------------------------------------------------------
-# About Us
---------------------------------------------------------------*/
+/*    About - What is wombat?    */
 .about .image {
   padding: 20px;
 }
@@ -442,67 +438,125 @@ section {
 .about h2 {
   font-family: 'Mulish', sans-serif;
   font-size: 35px;
+  color: #464E2E;
 }
 
 .about h4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 23px;
+  color: #464E2E;
 }
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding-bottom: 10px;
-  display: flex;
-  align-items: flex-start;
-}
-
-.about .content ul i {
-  font-size: 24px;
-  padding: 2px 6px 0 0;
-  color: #7cc576;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .icon-box h4 {
+.about p {
+  font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
-  font-weight: 700;
-  margin: 5px 0 10px 60px;
+  color: #A0937D;
 }
 
-.services .icon-box i {
-  font-size: 48px;
-  float: left;
-  color: #7cc576;
-}
-
-.services .icon-box p {
-  font-size: 15px;
-  color: #959595;
-  margin-left: 60px;
+/*    Services - Life Cycle    */
+.services h2 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 35px;
+  color: #464E2E;
 }
 
 .services .image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 400px;
+  padding-bottom: 60px;
 }
 
-/*--------------------------------------------------------------
-# Featured
---------------------------------------------------------------*/
+.services h5, p{
+  font-family: 'Fira Sans', sans-serif;
+  color: #464E2E;
+}
+
+.services .carousel-control-prev {
+  color: black;
+}
+
+.services .nav-tabs {
+  border: 0;
+}
+
+.services .nav-link {
+  border: 0;
+  padding: 20px;
+  color: #151515;
+  transition: 0.3s;
+}
+
+.services .nav-link h4 {
+  color: #8E806A;
+  font-size: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.services .nav-link:hover h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #FFCB74;
+}
+
+.services .nav-link:hover p {
+  font-family: 'Raleway', sans-serif;
+  color: #935900;
+}
+
+.services .nav-link p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .nav-link.active {
+  border: 5px solid #8E806A;
+  box-shadow: 0px 0 25px #8E806A;
+  border-radius: 20px;
+  background-color: #FEF7DC;
+}
+
+.services .nav-link.active:hover h4 {
+  color: #F4722B;
+}
+
+.services .tab-pane.active {
+  -webkit-animation: slide-down 0.5s ease-out;
+  animation: slide-down 0.5s ease-out;
+  color: #7cc576; /*?*/
+}
+
+@-webkit-keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*   Featured - Type    */
 .featured {
   padding: 40px 0 0 0;
+}
+
+.featured h2 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 35px;
+  color: #464E2E;
+}
+
+.featured p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  color: #A0937D;
 }
 
 .featured .image {
@@ -574,15 +628,24 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Habitat
---------------------------------------------------------------*/
-.habitat {
-  padding: 40px 0 0 0;
+/*   Habitat and Self-Defense    */
+.habitat h2 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 35px;
+  color: #464E2E;
 }
 
 .habitat .image {
   padding-bottom: 60px;
+}
+
+.habitat h5, p{
+  font-family: 'Fira Sans', sans-serif;
+  color: #464E2E;
+}
+
+.habitat .carousel-control-prev {
+  color: black;
 }
 
 .habitat .nav-tabs {
@@ -597,31 +660,43 @@ section {
 }
 
 .habitat .nav-link h4 {
-  font-size: 18px;
+  color: #8E806A;
+  font-size: 25px;
   font-weight: 600;
   transition: 0.3s;
 }
 
 .habitat .nav-link:hover h4 {
-  color: #7cc576;
+  font-family: 'Raleway', sans-serif;
+  color: #FFCB74;
+}
+
+.habitat .nav-link:hover p {
+  font-family: 'Raleway', sans-serif;
+  color: #935900;
 }
 
 .habitat .nav-link p {
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   margin-bottom: 0;
 }
 
 .habitat .nav-link.active {
-  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.08);
+  border: 5px solid #8E806A;
+  box-shadow: 0px 0 25px #8E806A;
+  border-radius: 20px;
+  background-color: #FEF7DC;
 }
 
-.habitat .nav-link.active h4 {
-  color: #7cc576;
+.habitat .nav-link.active:hover h4 {
+  color: #F4722B;
 }
 
 .habitat .tab-pane.active {
   -webkit-animation: slide-down 0.5s ease-out;
   animation: slide-down 0.5s ease-out;
+  color: #7cc576; /*?*/
 }
 
 @-webkit-keyframes slide-down {
@@ -642,34 +717,32 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Why Us
---------------------------------------------------------------*/
-.why-us {
+/*   Why Us - Wombats in Danger    */
+.danger {
   padding: 0;
 }
 
-.why-us .content {
+.danger .content {
   padding: 60px 100px 0 100px;
 }
 
-.why-us .content h3 {
+.danger .content h3 {
   font-weight: 400;
   font-size: 34px;
 }
 
-.why-us .content h4 {
+.danger .content h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
 }
 
-.why-us .content p {
+.danger .content p {
   font-size: 15px;
   color: #959595;
 }
 
-.why-us .video-box {
+.danger .video-box {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -677,26 +750,26 @@ section {
   position: relative;
 }
 
-.why-us .accordion-list {
+.danger .accordion-list {
   padding: 0 100px 60px 100px;
 }
 
-.why-us .accordion-list ul {
+.danger .accordion-list ul {
   padding: 0;
   list-style: none;
 }
 
-.why-us .accordion-list li + li {
+.danger .accordion-list li + li {
   margin-top: 15px;
 }
 
-.why-us .accordion-list li {
+.danger .accordion-list li {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
 }
 
-.why-us .accordion-list a {
+.danger .accordion-list a {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -708,46 +781,46 @@ section {
   cursor: pointer;
 }
 
-.why-us .accordion-list span {
+.danger .accordion-list span {
   color: #7cc576;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
 }
 
-.why-us .accordion-list i {
+.danger .accordion-list i {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.why-us .accordion-list p {
+.danger .accordion-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
 
-.why-us .accordion-list .icon-show {
+.danger .accordion-list .icon-show {
   display: none;
 }
 
-.why-us .accordion-list a.collapsed {
+.danger .accordion-list a.collapsed {
   color: #343a40;
 }
 
-.why-us .accordion-list a.collapsed:hover {
+.danger .accordion-list a.collapsed:hover {
   color: #7cc576;
 }
 
-.why-us .accordion-list a.collapsed .icon-show {
+.danger .accordion-list a.collapsed .icon-show {
   display: inline-block;
 }
 
-.why-us .accordion-list a.collapsed .icon-close {
+.danger .accordion-list a.collapsed .icon-close {
   display: none;
 }
 
-.why-us .play-btn {
+.danger .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(#7cc576 50%, rgba(124, 197, 118, 0.4) 52%);
@@ -759,7 +832,7 @@ section {
   overflow: hidden;
 }
 
-.why-us .play-btn::after {
+.danger .play-btn::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -774,7 +847,7 @@ section {
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-.why-us .play-btn::before {
+.danger .play-btn::before {
   content: '';
   position: absolute;
   width: 120px;
@@ -797,12 +870,12 @@ section {
   background: rgba(198, 16, 0, 0);
 }
 
-.why-us .play-btn:hover::after {
+.danger .play-btn:hover::after {
   border-left: 15px solid #7cc576;
   transform: scale(20);
 }
 
-.why-us .play-btn:hover::before {
+.danger .play-btn:hover::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -821,17 +894,17 @@ section {
 }
 
 @media (max-width: 1024px) {
-  .why-us .content, .why-us .accordion-list {
+  .danger .content, .danger .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 @media (max-width: 992px) {
-  .why-us .content {
+  .danger .content {
     padding-top: 30px;
   }
-  .why-us .accordion-list {
+  .danger .accordion-list {
     padding-bottom: 30px;
   }
 }
