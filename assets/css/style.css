@@ -639,7 +639,7 @@ section {
   padding-bottom: 60px;
 }
 
-.habitat h5, p{
+.habitat h4, p{
   font-family: 'Fira Sans', sans-serif;
   color: #464E2E;
 }
@@ -684,9 +684,9 @@ section {
 
 .habitat .nav-link.active {
   border: 5px solid #8E806A;
-  box-shadow: 0px 0 25px #8E806A;
   border-radius: 20px;
   background-color: #FEF7DC;
+  box-shadow: 0px 0 25px #8E806A;
 }
 
 .habitat .nav-link.active:hover h4 {
@@ -718,28 +718,15 @@ section {
 }
 
 /*   Why Us - Wombats in Danger    */
-.danger {
-  padding: 0;
-}
-
-.danger .content {
-  padding: 60px 100px 0 100px;
-}
-
-.danger .content h3 {
-  font-weight: 400;
-  font-size: 34px;
-}
-
-.danger .content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: 5px;
+.danger h2 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 35px;
+  color: #464E2E;
 }
 
 .danger .content p {
-  font-size: 15px;
-  color: #959595;
+  font-family: 'Fira Sans', sans-serif;
+  color: #464E2E;
 }
 
 .danger .video-box {
@@ -764,28 +751,37 @@ section {
 }
 
 .danger .accordion-list li {
+  border: 5px solid #8E806A;
+  border-radius: 20px;
+  background-color: #FEF7DC;
+  box-shadow: 0px 0 25px #8E806A;
   padding: 20px;
-  background: #fff;
-  border-radius: 4px;
 }
 
 .danger .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   padding-right: 30px;
   outline: none;
   cursor: pointer;
+  color: #83B582;
 }
 
 .danger .accordion-list span {
-  color: #7cc576;
-  font-weight: 600;
-  font-size: 18px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #83B582;
+  font-style: regular;
+  font-weight: 400;
+  font-size: 20px;
   padding-right: 10px;
+}
+
+.danger .accordion-list span:hover {
+  color: #F58B54;
 }
 
 .danger .accordion-list i {
@@ -804,15 +800,21 @@ section {
   display: none;
 }
 
+.danger .accordion-list a:hover {
+  color: #F4722B;
+}
+
 .danger .accordion-list a.collapsed {
-  color: #343a40;
+  color: #8E806A;
+  font-weight: 400;
 }
 
 .danger .accordion-list a.collapsed:hover {
-  color: #7cc576;
+  color: #FFCB74;
 }
 
-.danger .accordion-list a.collapsed .icon-show {
+.danger .accordion-list a.collapsed .icon-show { /* 오른쪽 화살표 아이콘 */
+  color: #8E806A;
   display: inline-block;
 }
 
@@ -931,9 +933,19 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+/*   Portfolio    */
+.portfolio h2 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 35px;
+  color: #464E2E;
+}
+
+.portfolio p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  color: #A0937D;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -949,20 +961,21 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 18px 12px 18px;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
-  color: #555555;
+  color: #8E806A;
   transition: all 0.3s ease-in-out;
   margin: 0 4px 10px 4px;
-  background: whitesmoke;
-  border-radius: 4px;
+  border: 3px solid #8E806A;
+  border-radius: 10px;
+  background: #FEF7DC;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #7cc576;
-  color: #fff;
+  background-color: #FFCB74;
 }
 
 .portfolio #portfolio-flters li:last-child {
