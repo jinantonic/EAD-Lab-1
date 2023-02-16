@@ -1,0 +1,58 @@
+/*--------------------------------------------------------------
+  Type
+--------------------------------------------------------------*/
+.type .image {
+  padding-bottom: 60px;
+  margin-bottom: 50px;
+}
+
+.type .d-block {
+  width: 70%;
+  margin: auto;
+}
+
+.type h5 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: SemiBold;
+  font-weight: 600;
+  font-size: 25px;
+  color: #A4BE7B;
+}
+
+.type p {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-size: 17px;
+  color: #464E2E;
+}
+
+.type .carousel-control-next, .carousel-control-prev {
+  filter: invert(100%);
+}
+
+.type .carousel-control-next:hover, .carousel-control-prev:hover {
+  filter: invert(30%);
+}
+
+.type .carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+
+@-webkit-keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

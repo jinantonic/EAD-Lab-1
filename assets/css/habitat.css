@@ -1,0 +1,84 @@
+/*--------------------------------------------------------------
+  Habitat and Self-Defense
+--------------------------------------------------------------*/ 
+.habitat .image {
+  padding-bottom: 60px;
+}
+
+.habitat h4, p{
+  font-family: 'Fira Sans', sans-serif;
+  color: #464E2E;
+}
+
+.habitat .carousel-control-prev {
+  color: black;
+}
+
+.habitat .nav-tabs {
+  border: 0;
+}
+
+.habitat .nav-link {
+  border: 0;
+  padding: 20px;
+  color: #151515;
+  transition: 0.3s;
+}
+
+.habitat .nav-link h4 {
+  color: #8E806A;
+  font-size: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.habitat .nav-link:hover h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #FFCB74;
+}
+
+.habitat .nav-link:hover p {
+  font-family: 'Raleway', sans-serif;
+  color: #935900;
+}
+
+.habitat .nav-link p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.habitat .nav-link.active {
+  border: 5px solid #8E806A;
+  border-radius: 20px;
+  background-color: #FEF7DC;
+  box-shadow: 0px 0 25px #8E806A;
+}
+
+.habitat .nav-link.active:hover h4 {
+  color: #F4722B;
+}
+
+.habitat .tab-pane.active {
+  -webkit-animation: slide-down 0.5s ease-out;
+  animation: slide-down 0.5s ease-out;
+  color: #7cc576; /*?*/
+}
+
+@-webkit-keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

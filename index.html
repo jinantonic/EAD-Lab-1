@@ -1,826 +1,795 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<!--  -->
-  <title>Wombat</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <title>Wombat</title>
+    
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <script src="https://kit.fontawesome.com/01951b58c6.js" crossorigin="anonymous"></script>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  <script src="https://kit.fontawesome.com/01951b58c6.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,600&family=Mulish:ital,wght@0,300;0,700;0,900;1,900&family=Raleway:wght@600;700&family=Roboto+Slab:wght@900&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">    
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,600&family=Mulish:ital,wght@0,300;0,700;0,900;1,900&family=Raleway:wght@600&family=Roboto+Slab:wght@900&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/home.css" rel="stylesheet">
+    <link href="assets/css/header.css" rel="stylesheet">
+    <link href="assets/css/nav.css" rel="stylesheet">
+    <link href="assets/css/about.css" rel="stylesheet">
+    <link href="assets/css/type.css" rel="stylesheet">
+    <link href="assets/css/cycle.css" rel="stylesheet">
+    <link href="assets/css/habitat.css" rel="stylesheet">
+    <link href="assets/css/danger.css" rel="stylesheet">
+    <link href="assets/css/gallery.css" rel="stylesheet">
+    <link href="assets/css/fact.css" rel="stylesheet">
+    <link href="assets/css/donation.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-</head>
+  </head>
 
-<body>
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/img/hero-logo.png" alt=""></a>
-      <h1 data-aos="zoom-in">HELLO <br>I AM <br>WOMBAT</h1>
-      <h2 data-aos="fade-up">An educational website to learn about wombat</h2>
-      <a data-aos="fade-up" data-aos-delay="200" href="#about" class="btn-get-started scrollto">Get To Know Me</a>
-    </div>
-  </section><!-- End Hero -->
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-      <div class="logo">
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+  <body>
+    <!-------- Home Section --------->
+    <section id="home">
+      <div class="home-container">
+        <a href="index.html" class="home-logo" data-aos="zoom-in"><img src="assets/img/home-logo.png" alt=""></a>
+        <h1 data-aos="zoom-in">HELLO <br>I AM <br>WOMBAT</h1>
+        <h2 data-aos="fade-up">An educational website to learn about wombat</h2>
+        <a data-aos="fade-up" data-aos-delay="200" href="#about" class="btn-get-started scrollto">Get To Know Me</a>
       </div>
+    </section><!-- End Home -->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#type">Type</a></li>
-          <li><a class="nav-link scrollto " href="#gallery">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <a href="index.html"><img src="assets/img/home-logo.png" alt="" class="img-fluid"></a>
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li class="dropdown"><a class="nav-link scrollto" href="#about"><span>About</span><i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a class="nav-link scrollto" href="#about">What is Wombat?</a></li>
+                <li><a class="nav-link scrollto" href="#type">Type of Wombats</a></li>
+                <li><a class="nav-link scrollto" href="#cycle">Life Cycle</a></li>
+                <li><a class="nav-link scrollto" href="#habitat">Habitat and Self-Defense</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto " href="#danger">Danger</a></li>
+            <li><a class="nav-link scrollto " href="#gallery">Gallery</a></li>
+            <li><a class="nav-link scrollto" href="#donation">Donation</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+      </div>
+    </header><!-- End Header -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>What is wombat?</h2>
+            <p>A short-legged, muscular quadrupedal marsupial that is native to Australia.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-right">
+              <div class="image">
+                <img src="assets/img/face.png" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-6"><!-- https://billiken.lat/interesante/wombat-el-marsupial-que-puede-correr-hasta-a-40-kilometros-por-hora/ -->
+              <div class="icon-box mt-5" data-aos="fade-up">
+                <h4>ㅤ<i class="fa-solid fa-angle-up"></i>ㅤ<b>Common Name</b>: Wombat</h4>
+              </div>
+              <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="100">
+                <h4>ㅤ<i class="fa-solid fa-angle-up"></i>ㅤ<b>Scientific Name</b>: Vombatus ursinus</h4>
+              </div>
+              <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
+                <h4>ㅤ<i class="fa-solid fa-angle-up"></i>ㅤ<b>Type</b>: Mammals</h4>
+              </div>
+              <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
+                <h4>ㅤ<i class="fa-solid fa-angle-up"></i>ㅤ<b>Kingdom</b>: 	Animalia</h4>
+              </div>
+              <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
+                <h4>ㅤ<i class="fa-solid fa-angle-up"></i>ㅤ<b>Diet</b>: Herbivore</h4>
+              </div>
+              <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="500">
+                <h4>ㅤ<i class="fa-solid fa-angle-up"></i>ㅤ<b>Group Name</b>: Mob, colony, wisdom</h4>
+              </div>
+              <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="600">
+                <h4>ㅤ<i class="fa-solid fa-angle-up"></i>ㅤ<b>Size</b>: 28 to 47 inches</h4>
+              </div>
+              <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="700">
+                <h4>ㅤ<i class="fa-solid fa-angle-up"></i>ㅤ<b>Weight</b>: 32 to 80 pounds</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End About Section -->
+
+      <!-- ======= Type Section ======= -->
+      <section id="type" class="type">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Types of Wombats</h2>
+          </div>
+
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-paragraph d-none d-md-block">
+                  <h5>Bare-Nosed Wombat</h5>
+                  <p>Their fur can be of various shades between gray and black. It sometimes presents with gray or beige-colored patches. Unlike the other types of wombats, it does not have hair on the rhinarium (area around the nostrils). It is also distinguished by its smaller, hairier ears. They tend to be smaller than the other species, but there are exceptions. Individuals of this type inhabit Tasmania and other areas.</p>
+                </div>
+                <img src="assets/img/BN.png" class="d-block" alt="..."><!-- https://www.michaelrobertsphotography.com.au/wildlife-prints/bare-nosed-wombat -->
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-paragraph d-none d-md-block ">
+                  <h5>Southern Hairy-Nosed Wombat</h5>
+                  <p>The distinctive feature of the southern wombat is that its nasal bone is longer than the frontal bone. Their hair is silky in texture and the color ranges from gray to tan. The rhinarium is covered in smooth white fur and the snout is longer and more square than that of the common wombat.</p>
+                </div>
+                <img src="assets/img/SHN.png" class="d-block" alt="..."><!-- https://lazoo.org/explore-your-zoo/our-animals/mammals/wombat-southern-hairy-nosed/ -->
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-paragraph d-none d-md-block">
+                  <h5>Northern Hairy-Nosed Wombat</h5>
+                  <p>The fur of this species is silky and brown in color. It tends to be heavier than the previous species. Its rinary is also covered in hair and has a wider muzzle than other types of wombat.</p>
+                </div>
+                <img src="assets/img/NHN.png" class="d-block" alt="..."><!-- https://lovingexotics.tumblr.com/post/185782981114/northern-hairy-nosed-wombat-lasiorhinus-krefftii -->
+              </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section><!-- End Type Section -->
+
+      <!-- ======= Life Cycle Section ======= -->
+      <section id="cycle" class="cycle">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Life Cycle</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                    <h4>First born</h4>
+                    <p>When first born, wombats weigh only one gram and their mouths are attached to the mother's teat. At this stage they are furless and wildlife carers refer to them as "Pinkies”.</p>
+                  </a>
+                </li>
+                <li class="nav-item mt-2">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+                    <h4>Stay in the pouch</h4>
+                    <p>Wombats are marsupials and carry their young (joeys) in the mother's pouch until they are big enough to be independent.</p>
+                  </a>
+                </li>
+                <li class="nav-item mt-2">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                    <h4>Leave the pouch</h4>
+                    <p>Young wombats leave the pouch at about five months old, and care for themselves (are independent) at seven months.</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-right">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-1">
+                  <figure>
+                    <img src="assets/img/newborn.jpg" alt="" class="img-fluid"><!-- https://www.dailymail.co.uk/news/article-3553441/Newborn-wombat-held-fed-human-s-hand.html -->
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                  <figure>
+                    <img src="assets/img/pouch_s.jpg" alt="" class="img-fluid"><!-- https://extra.ie/2018/04/03/news/baby-wombat-mothers-pouch -->
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab-3">
+                  <figure>
+                    <img src="assets/img/pouch_l.jpg" alt="" class="img-fluid"><!-- https://www.zooborns.com/zooborns/2011/02/look-whos-out-of-the-pouch.html -->
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Life Cycle Section -->
+
+      <!-- ======= Habitat Section ======= -->
+      <section id="habitat" class="habitat">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Habitat and self-defense</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-right">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-4">
+                  <figure>
+                    <img src="assets/img/burrow.jpg" alt="" class="img-fluid"><!-- https://en.wikipedia.org/wiki/Common_wombat -->
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab-5">
+                  <figure>
+                    <img src="assets/img/featured-2.png" alt="" class="img-fluid"><!-- https://www.britannica.com/animal/common-wombat -->
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab-6">
+                  <figure>
+                    <img src="assets/img/featured-3.png" alt="" class="img-fluid"><!-- https://www.ourbreathingplanet.com/northern-hairy-nosed-wombat/ -->
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-4">
+                    <h4>Habitat</h4>
+                    <p>They use big claws to dig large burrows. They Spend up to 4 days sleeping in one burrows before moving onto another, creating intricate tunnel-and-chamber complexes which are often used by other small mammals for shleter as well.</p>
+                  </a>
+                </li>
+                <li class="nav-item mt-2">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-5">
+                    <h4>Self-defense</h4>
+                    <p>They are well equipped tp protect themselves from predators. In their hind quarters, their sturdy backbone plates are surrounded by tough cartilage, fat, and fur-forming a durable shield.</p>
+                  </a>
+                </li>
+                <li class="nav-item mt-2">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-6">
+                    <h4>Threat</h4>
+                    <p>When under threat, wombats dive into their burrows and use their rear ends to block the entrance and protect the rest of their bodies. They may even land a hefty kick on their attacker for good measure.</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Habitat Section -->
+
+      <!-- ======= Wombats in Danger Section ======= -->
+      <section id="danger" class="danger">
+        <div class="container-fluid">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Wombats in danger</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-stretch">
+              <div class="accordion-list">
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li data-aos="fade-up" data-aos-delay="100">
+                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>Mange infection<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                      <p>Mange breakout affecting the southern hairy-nosed wombat, or even the critically endangered northern hairy-nosed wombat, could cause extinction. Infected wombats slowly succumb to the complications of the disease within 2-3 months, leading to a slow and painful death.</p>
+                    </div>
+                  </li>
+                  <li data-aos="fade-up" data-aos-delay="200">
+                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>Vehicle collisions<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                      <p>Each year in Australia many thousands of collisions occur between motor vehicles and animals, resulting in considerable vehicle repair costs, injury to persons, and loss of animal life. Wombats are now ranked third by motorists as the most
+                        accidentally struck animal.</p>
+                    </div>
+                  </li>
+                  <li data-aos="fade-up" data-aos-delay="300">
+                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>Habitat loss<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                      <p>There are a limited number of places to establish new populations of wombats in the future.</p>
+                    </div>
+                  </li>
+                  <li data-aos="fade-up" data-aos-delay="400">
+                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"><span>04</span>Predation<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+                      <p>Previous records have shown predation by wild dogs is a considerable threat to the northern hairy-nosed wombat.</p>
+                    </div>
+                  </li>
+                  <li data-aos="fade-up" data-aos-delay="500">
+                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-5" class="collapsed"><span>05</span>Floods<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-list">
+                      <p>Floods are a potential threat to populations of northern hairy-nosed wombats, due to their ability to inundate burrow systems and destroy food resources.</p>
+                    </div>
+                  </li>
+                  <li data-aos="fade-up" data-aos-delay="600">
+                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-6" class="collapsed"><span>06</span>Drought<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="accordion-list-6" class="collapse" data-bs-parent=".accordion-list">
+                      <p>Drought, such as the six-year long drought in the 1990s, slows the reproductive output of northern hairy-nosed wombats, and reduces body condition and survival rates in the population. A study by Crossman et al. (1994) found 50-75% of breeding females successfully bred when good summer rainfall occurred, whilst only 20% bred during a major drought.</p>
+                    </div>
+                  </li>
+                  <li data-aos="fade-up" data-aos-delay="700">
+                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-7" class="collapsed"><span>07</span>Wildfire<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="accordion-list-7" class="collapse" data-bs-parent=".accordion-list">
+                      <p>Wildfire is not a direct threat to individual northern hairy-nosed wombats as deep burrows provide protection. However, fire will destroy food resources and may impact particular tree species whose roots provide stability in wombat burrows.</p>
+                    </div>
+                  </li>
                 </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-    </div>
-  </header><!-- End Header -->
-
-  <main id="main">
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>What is wombat?</h2>
-          <p>A short-legged, muscular quadrupedal marsupial that is native to Australia.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-right">
-            <div class="image">
-              <img src="assets/img/services.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-6"><!-- https://billiken.lat/interesante/wombat-el-marsupial-que-puede-correr-hasta-a-40-kilometros-por-hora/ -->
-            <div class="icon-box mt-5" data-aos="fade-up">
-              <h4>ㅤ<i class="fa-solid fa-bolt"></i>ㅤ<b>Common Name</b>: Wombat</h4>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="100">
-              <h4>ㅤ<i class="fa-solid fa-bolt"></i>ㅤ<b>Scientific Name</b>: Vombatus ursinus</h4>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
-              <h4>ㅤ<i class="fa-solid fa-bolt"></i>ㅤ<b>Type</b>: Mammals</h4>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
-              <h4>ㅤ<i class="fa-solid fa-bolt"></i>ㅤ<b>Kingdom</b>: 	Animalia</h4>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
-              <h4>ㅤ<i class="fa-solid fa-bolt"></i>ㅤ<b>Diet</b>: Herbivore</h4>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="500">
-              <h4>ㅤ<i class="fa-solid fa-bolt"></i>ㅤ<b>Group Name</b>: Mob, colony, wisdom</h4>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="600">
-              <h4>ㅤ<i class="fa-solid fa-bolt"></i>ㅤ<b>Size</b>: 28 to 47 inches</h4>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="700">
-              <h4>ㅤ<i class="fa-solid fa-bolt"></i>ㅤ<b>Weight</b>: 32 to 80 pounds</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Type Section ======= -->
-    <section id="type" class="type">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Type</h2>
-          <p>Types of wombat species.</p>
-        </div>
-
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"><!-- Carousel -->
-          <div class="carousel-indicators"><!-- Indicators/dots -->
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner"><!-- The slideshow/carousel -->
-            <div class="carousel-item active">
-              <img src="assets/img/BN.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Common wombat (Vombatus ursinus)</h5>
-                <p>Their fur can be of various shades between gray and black. It sometimes presents with gray or beige-colored patches. Unlike the other types of wombats, it does not have hair on the rhinarium (area around the nostrils). It is also distinguished by its smaller, hairier ears. They tend to be smaller than the other species, but there are exceptions. Individuals of this type inhabit Tasmania and other areas.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/SHN.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Southern hairy-nosed wombat (Lasiorhinus latifrons)</h5>
-                <p>The distinctive feature of the southern wombat is that its nasal bone is longer than the frontal bone. Their hair is silky in texture and the color ranges from gray to tan. The rhinarium is covered in smooth white fur and the snout is longer and more square than that of the common wombat.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/NHN.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Northern hairy-nosed wombat (Lasiorhinus krefftii)</h5>
-                <p>The fur of this species is silky and brown in color. It tends to be heavier than the previous species. Its rinary is also covered in hair and has a wider muzzle than other types of wombat.</p>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Left and right controls/icons -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </section><!-- End Type Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Life Cycle</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-                  <h4>First born</h4>
-                  <p>When first born, wombats weigh only one gram and their mouths are attached to the mother's teat. At this stage they are furless and wildlife carers refer to them as "Pinkies”.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                  <h4>Stay in the pouch</h4>
-                  <p>Wombats are marsupials and carry their young (joeys) in the mother's pouch until they are big enough to be independent.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                  <h4>Leave the pouch</h4>
-                  <p>Young wombats leave the pouch at about five months old, and care for themselves (are independent) at seven months.</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-right">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <figure>
-                  <img src="assets/img/newborn.jpg" alt="" class="img-fluid"><!-- https://www.dailymail.co.uk/news/article-3553441/Newborn-wombat-held-fed-human-s-hand.html -->
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <figure>
-                  <img src="assets/img/pouch_s.jpg" alt="" class="img-fluid"><!-- https://extra.ie/2018/04/03/news/baby-wombat-mothers-pouch -->
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <figure>
-                  <img src="assets/img/pouch_l.jpg" alt="" class="img-fluid"><!-- https://www.zooborns.com/zooborns/2011/02/look-whos-out-of-the-pouch.html -->
-                </figure>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section><!-- End Services Section -->
+      </section><!-- End Wombats in Danger Section -->
 
-    <!-- ======= Habitat Section ======= -->
-    <section id="habitat" class="habitat">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Habitat and self-defense</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-right">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-4">
-                <figure>
-                  <img src="assets/img/burrow.jpg" alt="" class="img-fluid"><!-- https://en.wikipedia.org/wiki/Common_wombat -->
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <figure>
-                  <img src="assets/img/featured-2.png" alt="" class="img-fluid"><!-- https://www.britannica.com/animal/common-wombat -->
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-6">
-                <figure>
-                  <img src="assets/img/featured-3.png" alt="" class="img-fluid"><!-- https://www.ourbreathingplanet.com/northern-hairy-nosed-wombat/ -->
-                </figure>
-              </div>
-            </div>
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Gallery</h2>
+            <p>Pictures of all types of wombats</p>
           </div>
-          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-4">
-                  <h4>Habitat</h4>
-                  <p>They use big claws to dig large burrows. They Spend up to 4 days sleeping in one burrows before moving onto another, creating intricate tunnel-and-chamber complexes which are often used by other small mammals for shleter as well.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">
-                  <h4>Self-defense</h4>
-                  <p>They are well equipped tp protect themselves from predators. In their hind quarters, their sturdy backbone plates are surrounded by tough cartilage, fat, and fur-forming a durable shield.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-6">
-                  <h4>Threat</h4>
-                  <p>When under threat, wombats dive into their burrows and use their rear ends to block the entrance and protect the rest of their bodies. They may even land a hefty kick on their attacker for good measure.</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Habitat Section -->
 
-    <!-- ======= Why Us Section ======= -->
-    <section id="danger" class="danger">
-      <div class="container-fluid">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Wombats in danger</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-stretch">
-            <div class="accordion-list">
-              <ul>
-                <li data-aos="fade-up" data-aos-delay="100">
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>Mange infection<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                    <p>Mange breakout affecting the southern hairy-nosed wombat, or even the critically endangered northern hairy-nosed wombat, could cause extinction. Infected wombats slowly succumb to the complications of the disease within 2-3 months, leading to a slow and painful death.</p>
-                  </div>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="200">
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>Vehicle collisions<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                    <p>Each year in Australia many thousands of collisions occur between motor vehicles and animals, resulting in considerable vehicle repair costs, injury to persons, and loss of animal life. Wombats are now ranked third by motorists as the most
-                      accidentally struck animal.</p>
-                  </div>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="300">
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>Habitat loss<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                    <p>There are a limited number of places to establish new populations of wombats in the future.</p>
-                  </div>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="300">
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"><span>04</span>Predation<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
-                    <p>Previous records have shown predation by wild dogs is a considerable threat to the northern hairy-nosed wombat.</p>
-                  </div>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="300">
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-5" class="collapsed"><span>05</span>Floods<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-list">
-                    <p>Floods are a potential threat to populations of northern hairy-nosed wombats, due to their ability to inundate burrow systems and destroy food resources.</p>
-                  </div>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="300">
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-6" class="collapsed"><span>06</span>Drought<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-6" class="collapse" data-bs-parent=".accordion-list">
-                    <p>Drought, such as the six-year long drought in the 1990s, slows the reproductive output of northern hairy-nosed wombats, and reduces body condition and survival rates in the population. A study by Crossman et al. (1994) found 50-75% of breeding females successfully bred when good summer rainfall occurred, whilst only 20% bred during a major drought.</p>
-                  </div>
-                </li>
-                <li data-aos="fade-up" data-aos-delay="300">
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-7" class="collapsed"><span>07</span>Wildfire<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-7" class="collapse" data-bs-parent=".accordion-list">
-                    <p>Wildfire is not a direct threat to individual northern hairy-nosed wombats as deep burrows provide protection. However, fire will destroy food resources and may impact particular tree species whose roots provide stability in wombat burrows.</p>
-                  </div>
-                </li>
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="gallery-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">Common Wombat</li>
+                <li data-filter=".filter-card">Southern hairy-nosed wombat</li>
+                <li data-filter=".filter-web">Northern hairy-nosed wombat</li>
               </ul>
             </div>
           </div>
 
-          <div class="col-lg-5 order-1 order-lg-2 align-items-stretch video-box" style='background-image: url("assets/img/why-us.jpg");' data-aos="zoom-in">
-            <a href="https://youtu.be/6GUisuU6xzo" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          <div class="row gallery-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 gallery-item filter-app">
+              <div class="gallery-wrap">
+                <img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""><!-- https://www.wombatprotection.org.au/care-facts -->
+                <div class="gallery-info">
+                  <h4>App 1</h4>
+                  <p>App</p>
+                  <div class="pgallery-links">
+                    <a href="assets/img/gallery/gallery-1.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                    <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 gallery-item filter-web">
+              <div class="gallery-wrap">
+                <img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""><!--  -->
+                <div class="gallery-info">
+                  <h4>Web 3</h4>
+                  <p>Web</p>
+                  <div class="gallery-links">
+                    <a href="assets/img/gallery/gallery-2.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 gallery-item filter-app">
+              <div class="gallery-wrap">
+                <img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""><!-- https://en.wikipedia.org/wiki/Common_wombat -->
+                <div class="gallery-info">
+                  <h4>App 2</h4>
+                  <p>App</p>
+                  <div class="gallery-links">
+                    <a href="assets/img/gallery/gallery-3.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                    <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 gallery-item filter-card">
+              <div class="gallery-wrap">
+                <img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""><!--  -->
+                <div class="gallery-info">
+                  <h4>Card 2</h4>
+                  <p>Card</p>
+                  <div class="gallery-links">
+                    <a href="assets/img/gallery/pgallery-4.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                    <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 gallery-item filter-web">
+              <div class="gallery-wrap">
+                <img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""><!--  -->
+                <div class="gallery-info">
+                  <h4>Web 2</h4>
+                  <p>Web</p>
+                  <div class="gallery-links">
+                    <a href="assets/img/gallery/gallery-5.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                    <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 gallery-item filter-app">
+              <div class="gallery-wrap">
+                <img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""><!-- https://en.wikipedia.org/wiki/Common_wombat -->
+                <div class="gallery-info">
+                  <h4>App 3</h4>
+                  <p>App</p>
+                  <div class="gallery-links">
+                    <a href="assets/img/gallery/gallery-6.jpg" data-gallery="portfolioGallery" class="pgallery-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                    <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 gallery-item filter-card">
+              <div class="gallery-wrap">
+                <img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""><!-- https://www.wombatprotection.org.au/care-facts -->
+                <div class="gallery-info">
+                  <h4>Card 1</h4>
+                  <p>Card</p>
+                  <div class="gallery-links">
+                    <a href="assets/img/gallery/pgallery-7.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                    <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 gallery-item filter-card">
+              <div class="gallery-wrap">
+                <img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""><!-- https://www.zooborns.com/zooborns/2012/11/southern-hairy-nosed-wombat-joey-out-and-about-at-brookfield-zoo.html -->
+                <div class="gallery-info">
+                  <h4>Card 3</h4>
+                  <p>Card</p>
+                  <div class="gallery-links">
+                    <a href="assets/img/gallery/gallery-8.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                    <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 gallery-item filter-web">
+              <div class="gallery-wrap">
+                <img src="assets/img/gallery/gallery-9.jpg" class="img-fluid" alt=""><!--  -->
+                <div class="gallery-info">
+                  <h4>Web 3</h4>
+                  <p>Web</p>
+                  <div class="gallery-links">
+                    <a href="assets/img/gallery/gallery-9.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-box w-100" style='background-image: url("assets/img/why-us.jpg");' data-aos="zoom-in">
+              <a href="https://youtu.be/6GUisuU6xzo" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            </div>
           </div>
+
+        </div>
+      </section><!-- End Gallery Section -->
+
+      <!-- ======= Fun Facts about Wombats ======= -->
+      <section id="fact" class="fact">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Fun facts about wombats</h2>
+          </div>
+
+          <ul class="fact-list">
+            <li data-aos="fade-up">
+              <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#fact1">Do they poop in cubes? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+              <div id="fact1" class="collapse" data-bs-parent=".fact-list">
+                <p>One of the more unusual facts about wombats is that their poo resembles an 80s toy craze rather than actual animal faeces. No joke: these critters actually excrete cube shaped poop! Apparently this stops the poo from rolling off their marked territory of rocks or trees. Glad we got to the bottom of that…</p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <a data-bs-toggle="collapse" data-bs-target="#fact2" class="collapsed">Is their butt the main form of defense? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+              <div id="fact2" class="collapse" data-bs-parent=".fact-list">
+                <p>The wombats rear end is really their main form of defence against predators. When a predator is near, these big booty mammals dive down their burrows and block off the entrance with their butts. As their booties mainly consist of cartilage, they are very resistant to scratches and bites. They can also crush predator's skulls with their behinds. Crazy stuff.</p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <a data-bs-toggle="collapse" data-bs-target="#fact3" class="collapsed">Is Koala the cloest relative of wombats? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+              <div id="fact3" class="collapse" data-bs-parent=".fact-list">
+                <p>Although Koalas could be physically compared to bears, pigs and guinea pigs, the closest living relative to the Wombat is actually the Koala. Although they may not look physically similar, both species have backward-facing pouches. This is especially useful for Wombats as they won't get dirt in their pouches while digging.</p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <a data-bs-toggle="collapse" data-bs-target="#fact4" class="collapsed">Is a group of wobats known as a wisdom? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+              <div id="fact4" class="collapse" data-bs-parent=".fact-list">
+                <p>A wisdom of wombats. A mob of kangaroos. A paddle of platypus. We can't get enough of Australian animal collective nouns!</p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <a data-bs-toggle="collapse" data-bs-target="#fact5" class="collapsed">How much does the heiviest wombat weight? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+              <div id="fact5" class="collapse" data-bs-parent=".fact-list">
+                <p>The Heaviest Wombat Was 38kg. The oldest (31 years) and heaviest wombat was Patrick the Bare-nosed Wombat who lived at Ballarat Wildlife Park. This makes him the weight of around four Koalas combined.</p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="500">
+              <a data-bs-toggle="collapse" data-bs-target="#fact6" class="collapsed">How fast can wombats run? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+              <div id="fact6" class="collapse" data-bs-parent=".fact-list">
+                <p></p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="600">
+              <a data-bs-toggle="collapse" data-bs-target="#fact7" class="collapsed">How long do wombat's teeth grow? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+              <div id="fact7" class="collapse" data-bs-parent=".fact-list">
+                <p>Their teeth never stop growing, which ensures they don't grind away when they are munching on grasses, roots, shrubs and vegetables.</p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="700">
+              <a data-bs-toggle="collapse" data-bs-target="#fact8" class="collapsed">How long do womba's guts can hold food? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+              <div id="fact8" class="collapse" data-bs-parent=".fact-list">
+                <p>Their Guts Can Hold Food For 70 Hours. And it takes them around four to six days to digest a meal.</p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="800">
+              <a data-bs-toggle="collapse" data-bs-target="#fact9" class="collapsed">Is is true that the wombats are the second largest of all marsupials? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+              <div id="fact9" class="collapse" data-bs-parent=".fact-list">
+                <p>Yes, it is. The largest living marsupial is the Red Kangaroo. However, the largest ever marsupial was a Diprotodon, which was a wombat-like creature standing at around 2 metres tall.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section><!-- End Fun Facts about Wombats -->
+
+      <!-- ======= Donation Section ======= -->
+      <section id="donation" class="donation section-bg">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-up">
+            <h2>Donation</h2>
+            <p>Your donation euros matter. Below are just a few examples of where your donation dollars can go.<br>All donations go directly to the care, protection and research of wombats in Australia.<br>To all donors who have supported wombats this year no matter how big or small the donation was, we thank you for your generosity and support. </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                <h3>One wombat</h3>
+                <h4><sup>€</sup>25<span> / month</span></h4>
+                <ul>
+                  <li>This can help us provide</li>
+                  <li>needed medical supplies</li>
+                  <li>to orphaned wombats</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">You Choose</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+              <div class="box recommended" data-aos="zoom-in">
+                <span class="recommended-badge">Recommended</span>
+                <h3>Two wombats</h3>
+                <h4><sup>€</sup>50<span> / month</span></h4>
+                <ul>
+                  <li>This will provide</li>
+                  <li>two orphaned wombats</li>
+                  <li>with food for 4 weeks</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">You Choose</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+              <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Various wombats</h3>
+                <h4><sup>€</sup>75<span> / month</span></h4>
+                <ul>
+                  <li>We can begin</li>
+                  <li>to fund research</li>
+                  <li>into wombats across Australia</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">You Choose</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+              <div class="box" data-aos="zoom-in" data-aos-delay="zoom-in">
+                <h3>Mange Treatment</h3>
+                <h4><sup>€</sup>100<span> / month</span></h4>
+                <ul>
+                  <li>You can help treat</li>
+                  <li>a single wombat</li>
+                  <li>for mange</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">You Choose</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+              <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Mange Treatment</h3>
+                <h4><sup>€</sup>200<span> / month</span></h4>
+                <ul>
+                  <li>You can help treat</li>
+                  <li>two wombats</li>
+                  <li>for mange</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">You Choose</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+              <div class="box" data-aos="zoom-in" data-aos-delay="zoom-in">
+                <h3>Any wombats</h3>
+                <h4><sup>€</sup>any<span> / month</span></h4>
+                <ul>
+                  <li>Any donation,</li>
+                  <li>no matter how small is</li>
+                  <li>helpful and much appreciated</li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">You Choose</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End Pricing Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact section-bg">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or concerns, please contact us using the form below.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="info d-flex flex-column justify-content-center" data-aos="fade-right">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>53L Hanover Riverside<br>Sir John Rogerson's Quay<br>Dublin 2</p>
+                </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>D19123917@mytudublin.ie</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Mobile:</h4>
+                  <p>+353 0838103838</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-left">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+      <div class="footer-top">
+
+        <div class="container">
+
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <a href="#header" class="scrollto footer-logo"><img src="assets/img/hero-logo.png" alt=""></a>
+              <h3>Knight</h3>
+              <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+            </div>
+          </div>
+
+          <div class="row footer-newsletter justify-content-center">
+            <div class="col-lg-6">
+              <form action="" method="post">
+                <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+              </form>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+
         </div>
       </div>
-    </section><!-- End Why Us Section -->
 
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Gallery</h2>
-          <p>Pictures of all types of wombats</p>
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Knight</span></strong>. All Rights Reserved
         </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="gallery-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Common Wombat</li>
-              <li data-filter=".filter-card">Southern hairy-nosed wombat</li>
-              <li data-filter=".filter-web">Northern hairy-nosed wombat</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row gallery-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 gallery-item filter-app">
-            <div class="gallery-wrap">
-              <img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""><!-- https://www.wombatprotection.org.au/care-facts -->
-              <div class="gallery-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="pgallery-links">
-                  <a href="assets/img/gallery/gallery-1.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-web">
-            <div class="gallery-wrap">
-              <img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""><!--  -->
-              <div class="gallery-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/gallery-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-app">
-            <div class="gallery-wrap">
-              <img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""><!-- https://en.wikipedia.org/wiki/Common_wombat -->
-              <div class="gallery-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/gallery-3.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-card">
-            <div class="gallery-wrap">
-              <img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""><!--  -->
-              <div class="gallery-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/pgallery-4.jpg" data-gallery="portfolioGallery" class="gallery-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-web">
-            <div class="gallery-wrap">
-              <img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""><!--  -->
-              <div class="gallery-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/gallery-5.jpg" data-gallery="galleryGallery" class="gallery-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-app">
-            <div class="gallery-wrap">
-              <img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""><!-- https://en.wikipedia.org/wiki/Common_wombat -->
-              <div class="gallery-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/gallery-6.jpg" data-gallery="portfolioGallery" class="pgallery-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="gallery-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-card">
-            <div class="gallery-wrap">
-              <img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""><!-- https://www.wombatprotection.org.au/care-facts -->
-              <div class="gallery-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""><!-- https://www.zooborns.com/zooborns/2012/11/southern-hairy-nosed-wombat-joey-out-and-about-at-brookfield-zoo.html -->
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""><!--  -->
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Gallery Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Fun facts about wombats</h2>
-        </div>
-
-        <ul class="faq-list">
-          <li data-aos="fade-up">
-            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">Do they poop in cubes? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-              <p>One of the more unusual facts about wombats is that their poo resembles an 80s toy craze rather than actual animal faeces. No joke: these critters actually excrete cube shaped poop! Apparently this stops the poo from rolling off their marked territory of rocks or trees. Glad we got to the bottom of that…</p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="100">
-            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">Is their butt the main form of defense? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-              <p>The wombats rear end is really their main form of defence against predators. When a predator is near, these big booty mammals dive down their burrows and block off the entrance with their butts. As their booties mainly consist of cartilage, they are very resistant to scratches and bites. They can also crush predator's skulls with their behinds. Crazy stuff.</p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="200">
-            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">Is Koara the cloest relative of wombats? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-              <p>Although Koalas could be physically compared to bears, pigs and guinea pigs, the closest living relative to the Wombat is actually the Koala. Although they may not look physically similar, both species have backward-facing pouches. This is especially useful for Wombats as they won't get dirt in their pouches while digging.</p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="300">
-            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="400">
-            <a data-bs-toggle="collapse" data-bs-target="#faq5" class="collapsed">Is a group of wobats known as a wisdom? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-              <p>A wisdom of wombats. A mob of kangaroos. A paddle of platypus. We can't get enough of Australian animal collective nouns!</p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="500">
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">How much does the heiviest wombat weight? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>The Heaviest Wombat Was 38kg. The oldest (31 years) and heaviest wombat was Patrick the Bare-nosed Wombat who lived at Ballarat Wildlife Park. This makes him the weight of around four Koalas combined.</p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="600">
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">How fast can wombats run? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p></p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="700">
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">How fast can wombats run? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>They Can Run As Fast As A Human. Don't let their looks deceive you, these marsupials can run at speeds of 40 km/h! That's just 7 km/h slower than Usain Bolt!</p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="800">
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">How fast can wombats run? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p></p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="900">
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">How long do wombat's teeth grow? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>Their teeth never stop growing, which ensures they don't grind away when they are munching on grasses, roots, shrubs and vegetables.</p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="1000">
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">How long do womba's guts can hold food? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>Their Guts Can Hold Food For 70 Hours. And it takes them around four to six days to digest a meal.</p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="500">
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">Is is true that the wombats are the second largest of all marsupials? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>Yes, it is. The largest living marsupial is the Red Kangaroo. However, the largest ever marsupial was a Diprotodon, which was a wombat-like creature standing at around 2 metres tall.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section><!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Donation</h2>
-          <p>Your donation euros matter. Below are just a few examples of where your donation dollars can go.<br>All donations go directly to the care, protection and research of wombats in Australia.<br>To all donors who have supported wombats this year no matter how big or small the donation was, we thank you for your generosity and support. </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <h3>One wombat</h3>
-              <h4><sup>€</sup>25<span> / month</span></h4>
-              <ul>
-                <li>This can help us provide</li>
-                <li>needed medical supplies</li>
-                <li>to orphaned wombats</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">You Choose</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-            <div class="box recommended" data-aos="zoom-in">
-              <span class="recommended-badge">Recommended</span>
-              <h3>Two wombats</h3>
-              <h4><sup>€</sup>50<span> / month</span></h4>
-              <ul>
-                <li>This will provide</li>
-                <li>two orphaned wombats</li>
-                <li>with food for 4 weeks</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">You Choose</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Various wombats</h3>
-              <h4><sup>€</sup>75<span> / month</span></h4>
-              <ul>
-                <li>We can begin</li>
-                <li>to fund research</li>
-                <li>into wombats across Australia</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">You Choose</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="zoom-in">
-              <h3>Mange Treatment</h3>
-              <h4><sup>€</sup>100<span> / month</span></h4>
-              <ul>
-                <li>You can help treat</li>
-                <li>a single wombat</li>
-                <li>for mange</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">You Choose</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Mange Treatment</h3>
-              <h4><sup>€</sup>200<span> / month</span></h4>
-              <ul>
-                <li>You can help treat</li>
-                <li>two wombats</li>
-                <li>for mange</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">You Choose</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="zoom-in">
-              <h3>Any wombats</h3>
-              <h4><sup>€</sup>any<span> / month</span></h4>
-              <ul>
-                <li>Any donation,</li>
-                <li>no matter how small is</li>
-                <li>helpful and much appreciated</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">You Choose</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact Us</h2>
-          <p>If you have any questions or concerns, please contact us using the form below.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="info d-flex flex-column justify-content-center" data-aos="fade-right">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>53L Hanover Riverside<br>Sir John Rogerson's Quay<br>Dublin 2</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>D19123917@mytudublin.ie</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Mobile:</h4>
-                <p>+353 0838103838</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-left">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
+        <div class="credits">
+          Designed by <a href="https://www.linkedin.com/in/jina-park-/" target="_blank">Jina Park</a>
         </div>
       </div>
-    </section><!-- End Contact Section -->
+    </footer><!-- End Footer -->
 
-  </main><!-- End #main -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <div class="footer-top">
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
-      <div class="container">
-
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <a href="#header" class="scrollto footer-logo"><img src="assets/img/hero-logo.png" alt=""></a>
-            <h3>Knight</h3>
-            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-          </div>
-        </div>
-
-        <div class="row footer-newsletter justify-content-center">
-          <div class="col-lg-6">
-            <form action="" method="post">
-              <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-
-        <div class="social-links">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Knight</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        Designed by <a href="https://www.linkedin.com/in/jina-park-/" target="_blank">Jina Park</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
+  </body>
 
 </html>

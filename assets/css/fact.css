@@ -1,0 +1,56 @@
+/*--------------------------------------------------------------
+  Fun Facts about Wombats
+--------------------------------------------------------------*/
+.fact .fact-list {
+  padding: 0;
+  list-style: none;
+}
+  
+.fact .fact-list li {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.fact .fact-list a {
+  display: block;
+  position: relative;
+  font-family: #7cc576;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+.fact .fact-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fact .fact-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.fact .fact-list .icon-show {
+  display: none;
+}
+
+.fact .fact-list a.collapsed {
+  color: #343a40;
+}
+
+.fact .fact-list a.collapsed:hover {
+  color: #7cc576;
+}
+
+.fact .fact-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.fact .fact-list a.collapsed .icon-close {
+  display: none;
+}
