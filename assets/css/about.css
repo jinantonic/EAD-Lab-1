@@ -1,6 +1,19 @@
 /*--------------------------------------------------------------
   About - What is Wombat?
 --------------------------------------------------------------*/
+.about h4 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 23px;
+  color: #464E2E;
+}
+
+.about p {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-size: 17px;
+  color: #A4BE7B;
+}
+
 .about .image {
   padding-bottom: 60px;
   margin-bottom: 50px;
@@ -10,14 +23,3 @@
   width: 100%;
 }
   
-.about h4 {
-  font-family: 'Mulish', sans-serif;
-  font-size: 23px;
-  color: #464E2E;
-}
-
-.about p {
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 20px;
-  color: #A4BE7B;
-}
