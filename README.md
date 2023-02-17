@@ -44,7 +44,7 @@ This is the home page of the website. As you can see, the wombat logo is located
 </br></br>
 
 ![Sketch](assets/img/readme/about.png)
-Once you move onto the next page, there's a navigation bar at the top and it contains the wombat logo on the left and the list of navigation items on the right side. The About section contains 4 different lists, which will direct you to **What is a wombat?**, **Types of wombats**, **Life Cycle** and **Habitat and Self-Defence** sections respectively. This "What is Wombat?" section contains basic information about wombats.ts. 
+Once you move onto the next page, there's a navigation bar at the top and it contains the wombat logo on the left and the list of navigation items on the right side. The About section contains 4 different lists, which will direct you to **What is a wombat?**, **Types of wombats**, **Life Cycle** and **Habitat and Self-Defence** sections respectively. This **What is Wombat?** section contains basic information about wombats. 
 
 </br></br>
 
@@ -54,12 +54,12 @@ There's a map of wombat habitats and then we have a carousel describing each typ
 </br></br>
 
 ![Sketch](assets/img/readme/lh.png)
-Then we have "Life Cycle" and "Habitat and Self-Defense" sections with a tabbed interface. It's easy to navigate and you can just simply click the content to see the attached images.
+Then we have **Life Cycle** and **Habitat and Self-Defense** sections with a tabbed interface. It's easy to navigate and you can just simply click the content to see the attached images.
 
 </br></br>
 
 ![Sketch](assets/img/readme/danger.png)
-The next section describes the wombats in danger using the accordion list, each of the list items appears sequentially when you scroll down the page. You can click to open the list content and click again to close the content or click another item to close the current item and open another one.
+The next section describes the wombats in danger using the accordion list, each of the list items appears sequentially when you scroll down the page. You can click to open the list content and click again to close the content, or click another item to close the current item and open another one.
 
 </br></br>
 
