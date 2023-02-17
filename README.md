@@ -79,7 +79,7 @@ Then we have a donation section to help out the wombats in danger.
 </br></br>
 
 ![Sketch](assets/img/readme/improvement.png)
-I added my improvement by using the Bootstrap table. 
+I added my improvement by using the Bootstrap table. All of the changes that I made are described in this table.
 
 </br></br>
 
