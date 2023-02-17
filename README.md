@@ -39,37 +39,37 @@ The Knight is an excellent starting free one page multipurpose responsive bootst
 
 ## My solution
 ![Sketch](assets/img/readme/home.png)
-This is the home page of the website. As you can see, the wombat logo is located in the middle and "Get to Know Me" button will lead you to the next page. 
+This is the home page of the website. As you can see, the wombat logo is located in the middle and the "Get to Know Me" button will lead you to the next page. 
 
 </br></br>
 
 ![Sketch](assets/img/readme/about.png)
-Once you move onto the next page, there's a navigation bar at the top and it contains the wombat logo on the left, and the list of navigation items on the rightside. The About section contains 4 different lists, which will direct you to What is a wombat, types of wombats, life cycle and habitat and self-defense sections respectively. This "What is Wombat?" section contains the basic information about wombats. 
+Once you move onto the next page, there's a navigation bar at the top and it contains the wombat logo on the left and the list of navigation items on the right side. The About section contains 4 different lists, which will direct you to What is a wombat, types of wombats, life cycle and habitat and self-defence sections respectively. This "What is Wombat?" section contains basic information about wombats.ts. 
 
 </br></br>
 
 ![Sketch](assets/img/readme/type.png)
-There's a map of wombat habitats and then we have a carousel describing each type of wombats with a short paragraph. 
+There's a map of wombat habitats and then we have a carousel describing each type of wombat with a short paragraph. 
 
 </br></br>
 
 ![Sketch](assets/img/readme/lh.png)
-Then we have "Life Cycle" and "Habitat and Self-Defense" sections with tabbed interface. It's easy to navigate and you can just simply click the content to see the attatched images. 
+Then we have "Life Cycle" and "Habitat and Self-Defense" sections with a tabbed interface. It's easy to navigate and you can just simply click the content to see the attached images.
 
 </br></br>
 
 ![Sketch](assets/img/readme/danger.png)
-Next section describes the wombats in danger using accordion list, each of the list item appears sequentially when you scroll down the page. You can click to open the list content and click again to close the content or click another item to close the current item and open another one. 
+The next section describes the wombats in danger using the accordion list, each of the list items appears sequentially when you scroll down the page. You can click to open the list content and click again to close the content or click another item to close the current item and open another one.
 
 </br></br>
 
 ![Sketch](assets/img/readme/gallery.png)
-To spice up the design, I added the gallery section with bunch of images. Each button will sort the item according to their species and the play button on the image will bring you to the youtube video. 
+To spice up the design, I added the gallery section with a bunch of images. Each button will sort the item according to their species and the play button on the image will bring you to the youtube video. 
 
 </br></br>
 
 ![Sketch](assets/img/readme/fact.png)
-This section contains the fun facts about wombats. You can click the title to check the content. 
+This section contains fun facts about wombats. You can click the title to check the content. 
 
 </br></br>
 
@@ -89,4 +89,4 @@ This is one of the examples of responsive design, the contents are well displaye
 </br></br>
 
 ![Sketch](assets/img/readme/footer.png)
-Lastly, we have a footer to subscribe to the page, and display the copyright and credit.
+Lastly, we have a footer to subscribe to the page and display the copyright and credit.
