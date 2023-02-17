@@ -58,5 +58,14 @@ Then we have "Life Cycle" and "Habitat and Self-Defense" sections with tabbed in
 
 </br></br>
 
-![Sketch](assets/img/readme/lh.png)
+![Sketch](assets/img/readme/danger.png)
+Next section describes the wombats in danger using accordion list, each of the list item appears sequentially when you scroll down the page. You can click to open the list content and click again to close the content or click another item to close the current item and open another one. 
 
+</br></br>
+
+![Sketch](assets/img/readme/gallery.png)
+To spice up the design, I added the gallery section with bunch of images. Each button will sort the item according to their species and the play button on the image will bring you to the youtube video. 
+
+</br></br>
+
+![Sketch](assets/img/readme/fact.png)
