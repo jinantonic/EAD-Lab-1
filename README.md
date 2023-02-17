@@ -39,4 +39,24 @@ The Knight is an excellent starting free one page multipurpose responsive bootst
 
 ## My solution
 ![Sketch](assets/img/readme/home.png)
-This is the home page of the website.
+This is the home page of the website. As you can see, the wombat logo is located in the middle and "Get to Know Me" button will lead you to the next page. 
+
+</br></br>
+
+![Sketch](assets/img/readme/about.png)
+Once you move onto the next page, there's a navigation bar at the top and it contains the wombat logo on the left, and the list of navigation items on the rightside. The About section contains 4 different lists, which will direct you to What is a wombat, types of wombats, life cycle and habitat and self-defense sections respectively. This "What is Wombat?" section contains the basic information about wombats. 
+
+</br></br>
+
+![Sketch](assets/img/readme/type.png)
+There's a map of wombat habitats and then we have a carousel describing each type of wombats with a short paragraph. 
+
+</br></br>
+
+![Sketch](assets/img/readme/lh.png)
+Then we have "Life Cycle" and "Habitat and Self-Defense" sections with tabbed interface. It's easy to navigate and you can just simply click the content to see the attatched images. 
+
+</br></br>
+
+![Sketch](assets/img/readme/lh.png)
+
