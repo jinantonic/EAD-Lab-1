@@ -38,5 +38,5 @@ The Knight is an excellent starting free one page multipurpose responsive bootst
 </br></br>
 
 ## My solution
-![Sketch](/img/readme/home.png)
+![Sketch](assets/img/readme/home.png)
 This is the home page of the website.
