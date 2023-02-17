@@ -27,38 +27,40 @@ h2 {
   padding-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
-# Back to top button
+  Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #7cc576;
-  width: 40px;
-  height: 40px;
+  background: #A4BE7B;
   border-radius: 4px;
   transition: all 0.4s;
+  z-index: 996;
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+  bottom: 15px;
+  right: 15px;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #FEF7DC;
   line-height: 0;
 }
 
 .back-to-top:hover {
+  color: #FEF7DC;
   background: #97d193;
-  color: #fff;
 }
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
 }
+
 
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
@@ -84,53 +86,6 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
   color: #aeaeae;
-}
-
-
-
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 40px 0;
-}
-
-.breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 300;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 15px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #2f2f2f;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
+  margin-bottom: 0;
 }

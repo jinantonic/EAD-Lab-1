@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------
+  My Improvements
+--------------------------------------------------------------*/
+.improvement h4 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 23px;
+  color: #464E2E;
+}
+
+.improvement table {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #464E2E;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.improvement th, .improvement td {
+  padding: 30px;
+}
+
+.improvement a:hover {
+  color: #FEF7DC;
+}
+
+.improvement tr:hover {
+  background-color: #E4CDA7;
+  cursor: pointer;
+  border: none;
+}
+

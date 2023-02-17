@@ -123,7 +123,7 @@
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: #FEF7DC;
 }
 
 @media (max-width: 991px) {
@@ -161,7 +161,7 @@
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #FEF7DC;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -188,7 +188,7 @@
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #FEF7DC;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 

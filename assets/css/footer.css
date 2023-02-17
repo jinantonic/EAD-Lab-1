@@ -49,24 +49,28 @@
 #footer .footer-top .footer-newsletter form {
   position: relative;
   text-align: left;
-  background: #A4BE7B;
-  border-radius: 15px;
+  background: #FEF7DC;
+  border-radius: 10px;
   padding: 6px 10px;
 }
 
+
 #footer .footer-top .footer-newsletter form input[type="email"] {
-  width: calc(100% - 100px);
+  width: calc(100% - 110px);
   border: 0;
   padding: 4px 8px;
+  margin: 0;
 }
 
-#footer .footer-top .footer-newsletter form input[type="submit"] {
+#footer .footer-top .footer-newsletter button {
   position: absolute;
+  text-align: center;
   font-size: 16px;
+  background: #A4BE7B;
   color: #FEF7DC;
-  background: none;
   transition: 0.3s;
-  border-radius: 50px;
+  border-radius: 10px;
+  width: 20%;
   top: 0;
   bottom: 0;
   right: -1px;
@@ -74,8 +78,9 @@
   padding: 0 20px;
 }
 
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+#footer .footer-top .footer-newsletter button:hover {
   background: #5ab652;
+  color: #FEF7DC;
 }
 
 #footer .footer-top .footer-newsletter form input {

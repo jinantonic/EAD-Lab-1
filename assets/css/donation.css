@@ -62,7 +62,7 @@
 
 .donation .box ul i {
   font-size: 18px;
-  color: #7cc576;
+  color: #A4BE7B;
   padding-right: 4px;
 }
 
@@ -81,25 +81,25 @@
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: #7cc576;
+  color: #A4BE7B;
   transition: 0.3s;
   border-radius: 5px;
-  border: 2px solid #7cc576;
+  border: 2px solid #A4BE7B;
   padding: 10px 40px 12px 40px;
 }
 
 .donation .box .btn-buy:hover {
-  background: #7cc576;
+  background: #A4BE7B;
   color: #fff;
 }
 
 .donation .recommended {
-  border-color: #7cc576;
+  border-color: #A4BE7B;
 }
 
 .donation .recommended .btn-buy {
   color: #fff;
-  background: #7cc576;
+  background: #A4BE7B;
 }
 
 .donation .recommended .btn-buy:hover {
@@ -111,7 +111,7 @@
   position: absolute;
   font-size: 12px;
   font-weight: 600;
-  color: #7cc576;
+  color: #A4BE7B;
   background: #ddf0d5;
   text-transform: uppercase;
   transform: translateX(-50%);
