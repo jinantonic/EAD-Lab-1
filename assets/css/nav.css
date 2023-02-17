@@ -38,13 +38,12 @@
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover, .navbar .active:focus, .navbar li:hover > a {
   color: #FEF7DC;
   font-size: 15px;
 }
 
 .navbar .dropdown ul {
-  
   display: block;
   position: absolute;
   left: 14px;

@@ -1,30 +1,37 @@
 /*--------------------------------------------------------------
   Donation
 --------------------------------------------------------------*/
+.donation p {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-size: 17px;
+  color: #9ea19c;
+}
+
 .donation .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
-  border-radius: 8px;
   position: relative;
+  text-align: center;
   overflow: hidden;
-  border: 1px solid #fff;
+  background-color: #FEF7DC;
+  border: 3px solid #8E806A;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .donation .box h3 {
-  font-weight: 400;
-  padding: 15px;
-  margin-top: 15px;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 600;
-  color: #151515;
+  color: #37440e;
+  margin-top: 15px;
+  padding: 15px;
 }
 
 .donation .box h4 {
-  font-size: 42px;
-  color: #151515;
-  font-weight: 700;
   font-family: "Open Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #4e5f1b;
   margin-bottom: 20px;
 }
 
@@ -35,18 +42,18 @@
 }
 
 .donation .box h4 span {
-  color: #bababa;
   font-size: 16px;
   font-weight: 300;
+  color: #bababa;
 }
 
 .donation .box ul {
-  padding: 0;
-  list-style: none;
-  color: #151515;
-  text-align: center;
-  line-height: 20px;
   font-size: 14px;
+  text-align: center;
+  list-style: none;
+  line-height: 20px;
+  color: #6b736d;
+  padding: 0;
 }
 
 .donation .box ul li {
@@ -54,8 +61,8 @@
 }
 
 .donation .box ul i {
-  color: #7cc576;
   font-size: 18px;
+  color: #7cc576;
   padding-right: 4px;
 }
 
@@ -65,21 +72,20 @@
 }
 
 .donation .box .btn-wrap {
-  padding: 15px;
   text-align: center;
+  padding: 15px;
 }
 
 .donation .box .btn-buy {
   display: inline-block;
-  padding: 10px 40px 12px 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #7cc576;
+  transition: 0.3s;
   border-radius: 5px;
   border: 2px solid #7cc576;
-  color: #7cc576;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
+  padding: 10px 40px 12px 40px;
 }
 
 .donation .box .btn-buy:hover {
@@ -92,8 +98,8 @@
 }
 
 .donation .recommended .btn-buy {
-  background: #7cc576;
   color: #fff;
+  background: #7cc576;
 }
 
 .donation .recommended .btn-buy:hover {
@@ -103,15 +109,15 @@
 
 .donation .recommended-badge {
   position: absolute;
-  top: 5px;
-  left: 50%;
+  font-size: 12px;
+  font-weight: 600;
+  color: #7cc576;
+  background: #ddf0d5;
+  text-transform: uppercase;
   transform: translateX(-50%);
   z-index: 1;
-  font-size: 12px;
-  padding: 4px 25px 6px 25px;
-  background: #eaf6e9;
-  color: #7cc576;
   border-radius: 50px;
-  text-transform: uppercase;
-  font-weight: 600;
+  top: 5px;
+  left: 50%;
+  padding: 4px 25px 6px 25px;
 }

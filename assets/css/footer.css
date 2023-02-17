@@ -1,0 +1,132 @@
+/*--------------------------------------------------------------
+  Footer
+--------------------------------------------------------------*/
+#footer {
+  background-color: #8E806A;
+  position: relative;
+  font-size: 14px;
+}
+
+#footer::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#footer .footer-top {
+  position: relative;
+  text-align: center;
+  background-color: #8E806A; 
+  z-index: 2;
+  padding: 80px 0;
+}
+
+#footer .footer-top .footer-logo img {
+  height: 80px;
+}
+
+#footer .footer-top h3 {
+  position: relative;
+  font-family: 'Mulish', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FEF7DC;
+  margin-bottom: 0;
+  padding: 30px 0 0 0;
+}
+
+#footer .footer-top .footer-newsletter {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#footer .footer-top .footer-newsletter form {
+  position: relative;
+  text-align: left;
+  background: #A4BE7B;
+  border-radius: 15px;
+  padding: 6px 10px;
+}
+
+#footer .footer-top .footer-newsletter form input[type="email"] {
+  width: calc(100% - 100px);
+  border: 0;
+  padding: 4px 8px;
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  font-size: 16px;
+  color: #FEF7DC;
+  background: none;
+  transition: 0.3s;
+  border-radius: 50px;
+  top: 0;
+  bottom: 0;
+  right: -1px;
+  border: 0;
+  padding: 0 20px;
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+  background: #5ab652;
+}
+
+#footer .footer-top .footer-newsletter form input {
+  background-color: #FEF7DC;
+  border-radius: 10px;
+}
+
+#footer .footer-top .social-links {
+  margin-top: 30px;
+}
+
+#footer .footer-top .social-links a {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  color: #FEF7DC;
+  background: #A4BE7B;
+  line-height: 1;
+  border-radius: 50%;
+  transition: 0.3s;
+  width: 36px;
+  height: 36px;
+  margin-right: 4px;
+  padding: 8px 0;
+}
+
+#footer .footer-top .social-links a:hover {
+  color: #FEF7DC;
+  background: #5ab652;
+  text-decoration: none;
+}
+
+#footer .footer-bottom {
+  position: relative;
+  background-color: #8E806A; 
+  border-top: 2px solid #FEF7DC;
+  z-index: 2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+#footer .credits a {
+  color: #FEF7DC;
+}
