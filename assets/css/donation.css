@@ -90,7 +90,7 @@
 
 .donation .box .btn-buy:hover {
   background: #A4BE7B;
-  color: #fff;
+  color: #FEF7DC;
 }
 
 .donation .recommended {
@@ -98,7 +98,7 @@
 }
 
 .donation .recommended .btn-buy {
-  color: #fff;
+  color: #FEF7DC;
   background: #A4BE7B;
 }
 

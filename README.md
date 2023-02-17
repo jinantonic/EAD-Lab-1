@@ -84,4 +84,4 @@ I added my improvement by using the Bootstrap table.
 </br></br>
 
 ![Sketch](assets/img/readme/footer.png)
-Lastly, we have a footer to subscribe to the page, and display the copyright and credit. 
+Lastly, we have a footer to subscribe to the page, and display the copyright and credit.

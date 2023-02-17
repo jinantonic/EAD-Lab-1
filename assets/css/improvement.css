@@ -17,7 +17,12 @@
   padding: 10px;
 }
 
-.improvement th, .improvement td {
+.improvement th {
+  background-color: #E4CDA7;
+  padding: 30px;
+}
+
+.improvement td {
   padding: 30px;
 }
 

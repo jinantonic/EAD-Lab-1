@@ -46,18 +46,18 @@
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
   opacity: 0;
   visibility: hidden;
+  transition: 0.3s;
+  z-index: 99;
   background: #FEF7DC;
   border: 3px solid #8E806A;
   border-radius: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
+  top: calc(100% + 30px);
+  left: 14px;
+  margin: 0;
+  padding: 10px 0;
 }
 
 .navbar .dropdown ul li {
@@ -114,12 +114,12 @@
 
 /*------ Mobile Navigation ------*/
 .mobile-nav-toggle {
-  color: #151515;
-  font-size: 28px;
-  cursor: pointer;
   display: none;
   line-height: 0;
+  color: #151515;
+  font-size: 28px;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -138,13 +138,13 @@
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
+  background: rgba(0, 0, 0, 0.9);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -156,20 +156,20 @@
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  background-color: #FEF7DC;
   overflow-y: auto;
   transition: 0.3s;
+  background-color: #FEF7DC;
+  top: 55px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  padding: 10px 0;
 }
 
 .navbar-mobile a {
-  padding: 10px 20px;
   font-size: 15px;
   color: #151515;
+  padding: 10px 20px;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -181,15 +181,15 @@
 }
 
 .navbar-mobile .dropdown ul {
-  position: static;
   display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
+  position: static;
+  visibility: visible;
   z-index: 99;
   opacity: 1;
-  visibility: visible;
   background: #FEF7DC;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  margin: 10px 20px;
+  padding: 10px 0;
 }
 
 .navbar-mobile .dropdown ul li {

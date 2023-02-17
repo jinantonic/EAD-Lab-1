@@ -60,8 +60,8 @@
 .danger .accordion-list i {
   position: absolute;
   font-size: 24px;
-  right: 0;
   top: 0;
+  right: 0;
 }
 
 .danger .accordion-list p {
