@@ -44,7 +44,7 @@ This is the home page of the website. As you can see, the wombat logo is located
 </br></br>
 
 ![Sketch](assets/img/readme/about.png)
-Once you move onto the next page, there's a navigation bar at the top and it contains the wombat logo on the left and the list of navigation items on the right side. The About section contains 4 different lists, which will direct you to <b>What is a wombat?</b>, <b>Types of wombats</b>, <b>Life Cycle</b> and <b>Habitat and Self-Defence</b> sections respectively. This "What is Wombat?" section contains basic information about wombats.ts. 
+Once you move onto the next page, there's a navigation bar at the top and it contains the wombat logo on the left and the list of navigation items on the right side. The About section contains 4 different lists, which will direct you to **What is a wombat?**, **Types of wombats**, **Life Cycle** and **Habitat and Self-Defence** sections respectively. This "What is Wombat?" section contains basic information about wombats.ts. 
 
 </br></br>
 
