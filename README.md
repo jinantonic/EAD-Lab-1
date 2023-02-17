@@ -26,7 +26,14 @@ https://www.w3schools.com/bootstrap5/index.php
 
 ## Original Template
 Link: https://themewagon.com/themes/free-one-page-multipurpose-responsive-bootstrap-template-download-2017/
+
 </br>
 
 Live Preview: https://themewagon.github.io/knight/ 
+
+</br>
+
+The Knight is an excellent starting free one page multipurpose responsive bootstrap template especially for business, landing page, portfolio, local business, personal websites and wherever you want. This is a powerful and versatile multipurpose template with pixel perfect design and outstanding functionality. It’s by far the most advanced template available today with loads of unmatched customization options. The use of Bootstrap brings a seamless, stunning, and appealing style which is easy to customize in such a way that’s most suitable for your upcoming project. The Knight is going to be much better than anything you’ve ever seen. It will present the best SEO results since the Bootstrapmade team optimized its structure perfectly.
+
+
 
