@@ -69,3 +69,19 @@ To spice up the design, I added the gallery section with bunch of images. Each b
 </br></br>
 
 ![Sketch](assets/img/readme/fact.png)
+This section contains the fun facts about wombats. You can click the title to check the content. 
+
+</br></br>
+
+![Sketch](assets/img/readme/donation.png)
+Then we have a donation section to help out the wombats in danger. 
+
+</br></br>
+
+![Sketch](assets/img/readme/improvement.png)
+I added my improvement by using the Bootstrap table. 
+
+</br></br>
+
+![Sketch](assets/img/readme/footer.png)
+Lastly, we have a footer to subscribe to the page, and display the copyright and credit. 
