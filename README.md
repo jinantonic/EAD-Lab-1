@@ -1,4 +1,4 @@
-# Enterprise Application Develop Lab 1 - Bootstrap Template
+# EAD Lab 1 - Bootstrap Template
 In the first lab you will have to reuse code downloaded from Bootstrap.
 For this lab, you will need to have a bit of imagination and create a website on something
 you like, and that other people will unlikely have a similar website.
