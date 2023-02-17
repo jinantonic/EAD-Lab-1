@@ -83,5 +83,10 @@ I added my improvement by using the Bootstrap table. All of the changes that I m
 
 </br></br>
 
+![Sketch](assets/img/readme/responsive.png)
+This is one of the examples of responsive design, the contents are well displayed even though the browser size got reduced. 
+
+</br></br>
+
 ![Sketch](assets/img/readme/footer.png)
 Lastly, we have a footer to subscribe to the page, and display the copyright and credit.
