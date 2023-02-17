@@ -26,4 +26,7 @@ https://www.w3schools.com/bootstrap5/index.php
 
 ## Original Template
 Link: https://themewagon.com/themes/free-one-page-multipurpose-responsive-bootstrap-template-download-2017/
+</br>
+
 Live Preview: https://themewagon.github.io/knight/ 
+
