@@ -13,11 +13,16 @@ topic.
 can use any content on the web instead. However, it is important to add references to
 the pictures/texts you are using in your website.
 
+</br>
+
 To this end, follow the instructions:
 1. You can download/copy any of the Bootstrap 5 Template from
 https://themewagon.com/themes/ or any other repository that you like.
 2. At this point you need to create a new website of your selected topic.
 3. Here you have a nice tutorial for implementing bootstrap 5.
 https://www.w3schools.com/bootstrap5/index.php
+
+</br></br>
+
 ## Original Template
 
