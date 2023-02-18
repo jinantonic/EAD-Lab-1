@@ -39,7 +39,7 @@ The Knight is an excellent starting free one page multipurpose responsive bootst
 
 ## My solution
 ![Sketch](assets/img/readme/home.png)
-This is the home page of the website. As you can see, the wombat logo is located in the middle and the "Get to Know Me" button will bring you to the next page. 
+This is the home page of the website. As you can see, the wombat logo is located in the middle and the **Get to Know Me** button will bring you to the next page. 
 
 </br></br>
 
